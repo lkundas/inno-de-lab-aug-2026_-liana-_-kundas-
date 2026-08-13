@@ -1,4 +1,4 @@
-
+  -- Part 5, Task 1: Поиск клиентов с максимальной суммой заказа
 SELECT 
     c.first_name, 
     c.last_name, 
