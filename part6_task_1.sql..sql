@@ -1,4 +1,4 @@
-
+ -- Part 6, Task 1: Оконная функция для расчета суммы всех заказов клиента
 SELECT 
     order_id, 
     customer_id, 
