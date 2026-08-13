@@ -1,4 +1,4 @@
-
+  -- Part 7, Task 1: Клиенты с >=2 заказами и доставкой 'Delivered'
 SELECT 
     c.first_name || ' ' ||  c.last_name AS full_name,
     c.country,
