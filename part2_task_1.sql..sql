@@ -1,3 +1,4 @@
+ -- Part 2, Task 1: Список заказов с именами клиентов
 SELECT 
     c.first_name, 
     c.last_name, 
