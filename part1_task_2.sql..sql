@@ -1,3 +1,4 @@
+ -- Part 1, Task 2: Заказы с суммой больше 1000
 SELECT 
     order_id, 
     item, 
