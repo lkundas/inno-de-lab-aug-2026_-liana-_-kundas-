@@ -7,35 +7,6 @@ UPDATE Employees
 SET Department = 'Senior IT' 
 WHERE Salary > 70000.00;
 -- 3. Удалить всех сотрудников, которые не назначены ни на один проект в таблице EmployeeProjects.
-CREATE TABLE IF NOT EXISTS Projects (
-    ProjectID SERIAL PRIMARY KEY,
-    ProjectName VARCHAR(100) NOT NULL,
-    Budget DECIMAL(12, 2),
-    StartDate DATE,
-    EndDate DATE
-);
-
-CREATE TABLE IF NOT EXISTS EmployeeProjects (
-    EmployeeID INT,
-    ProjectID INT,
-    HoursWorked INT,
-    PRIMARY KEY (EmployeeID, ProjectID)
-);
-
-INSERT INTO Projects (ProjectName, Budget, StartDate, EndDate) VALUES
-('Website Redesign', 150000.00, '2023-01-15', '2023-06-30'),
-('Mobile App Development', 200000.00, '2023-03-01', '2023-10-31'),
-('Internal Tools Upgrade', 80000.00, '2023-05-10', '2023-09-15')
-ON CONFLICT DO NOTHING;
-
-INSERT INTO EmployeeProjects (EmployeeID, ProjectID, HoursWorked) VALUES
-(2, 1, 160),
-(4, 1, 120),
-(2, 2, 200),
-(1, 3, 80),
-(3, 3, 100)
-ON CONFLICT DO NOTHING;
--- 3. Удалить всех сотрудников, которые не назначены ни на один проект в таблице EmployeeProjects.
 DELETE FROM Employees 
 WHERE EmployeeID NOT IN (
     SELECT EmployeeID 
