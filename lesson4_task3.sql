@@ -9,3 +9,5 @@ SELECT current_database();
 UPDATE Employees 
 SET Salary = 55000.00 
 WHERE FirstName = 'Test';
+-- Выдача дополнительных прав на последовательность для успешного INSERT
+GRANT USAGE, SELECT ON SEQUENCE employees_employeeid_seq TO hr_user;
