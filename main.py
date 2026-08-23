@@ -1,22 +1,21 @@
-import random
+num1 = float(input("Введите первое число: "))
+num2 = float(input("Введите второе число: "))
+operator = input("Выберите оператор (+, -, *, /): ")
 
-secret_number = random.randint(1, 20)
-attempts = 5
-
-print("Я загадал число от 1 до 20. У тебя 5 попыток!")
-
-while attempts > 0:
-    guess = int(input("Введите число: "))
-
-    if guess == secret_number:
-        print("Ты угадала! Отличная работа.")
-        break
-    elif guess < secret_number:
-        attempts -= 1
-        print(f"Слишком мало! Осталось попыток: {attempts}")
+if operator == "+":
+    result = num1 + num2
+    print(f"Результат: {num1} + {num2} = {result}")
+elif operator == "-":
+    result = num1 - num2
+    print(f"Результат: {num1} - {num2} = {result}")
+elif operator == "*":
+    result = num1 * num2
+    print(f"Результат: {num1} * {num2} = {result}")
+elif operator == "/":
+    if num2 != 0:
+        result = num1 / num2
+        print(f"Результат: {num1} / {num2} = {result}")
     else:
-        attempts -= 1
-        print(f"Слишком много! Осталось попыток: {attempts}")
-
-if attempts == 0 and guess != secret_number:
-    print(f"Попытки закончились. Я загадал число: {secret_number}")
+        print("Ошибка: деление на ноль!")
+else:
+    print("Неверный оператор!")
