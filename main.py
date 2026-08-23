@@ -1,4 +1,3 @@
-length = int(input("Введите длину прямоугольника: "))
-width = int(input("Введите ширину прямоугольника: "))
-area = length * width
-print("Площадь прямоугольника:", area)
+celsius = float(input("Введите температуру в градусах Цельсия: "))
+fahrenheit = celsius * 9 / 5 + 32
+print(celsius, "°C это", fahrenheit, "°F")
