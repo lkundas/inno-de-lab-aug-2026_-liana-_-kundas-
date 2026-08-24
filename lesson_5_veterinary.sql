@@ -22,7 +22,6 @@ CREATE TABLE dim_client (
 -- Таблица измерений: Пациенты (питомцы)
 CREATE TABLE dim_patient (
     patient_id SERIAL PRIMARY KEY,
-    client_id INT REFERENCES dim_client(client_id),
     pet_name VARCHAR(50),
     species VARCHAR(30),
     breed VARCHAR(50)
