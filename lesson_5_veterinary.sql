@@ -54,7 +54,8 @@ CREATE TABLE dim_date (
 
 -- Таблица фактов: Визиты / Продажи
 CREATE TABLE fact_visits (
-    visit_id SERIAL PRIMARY KEY,
+    fact_id SEREAL PRIMARY KEY,
+    visit_id SERIAL INT NOT NULL,
     client_id INT REFERENCES dim_client(client_id),
     patient_id INT REFERENCES dim_patient(patient_id),
     doctor_id INT REFERENCES dim_doctor(doctor_id),
