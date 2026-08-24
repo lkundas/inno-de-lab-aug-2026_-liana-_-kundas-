@@ -54,15 +54,15 @@ CREATE TABLE dim_date (
 
 -- Таблица фактов: Визиты / Продажи
 CREATE TABLE fact_visits (
-    fact_id SEREAL PRIMARY KEY,
-    visit_id SERIAL INT NOT NULL,
+    fact_id SERIAL PRIMARY KEY,
+    visit_id INT NOT NULL,
     client_id INT REFERENCES dim_client(client_id),
     patient_id INT REFERENCES dim_patient(patient_id),
     doctor_id INT REFERENCES dim_doctor(doctor_id),
     service_id INT REFERENCES dim_service(service_id),
     date_id INT REFERENCES dim_date(date_id),
     quantity INT,
-    total_amount DECIMAL(10, 2)
+    total_amount DECIMAL(10, 2) --фактически начисленная сумма за позицию в момент визита
 );
 -- Шаг 6: Аналитические запросы
 
