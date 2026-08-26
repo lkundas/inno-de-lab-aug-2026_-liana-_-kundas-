@@ -4,12 +4,12 @@
 -- Одна строка в таблице фактов соответствует одной конкретной позиции (оказанной услуге или проданному товару) в чеке за визит питомца.
 -- Шаг 3: Таблицы измерений (Dimension tables)
 --   - dim_client (Владельцы животных: ID, ФИО, телефон, город)
---   - dim_patient (Питомцы: ID питомца, ID владельца, кличка, вид, порода)
+--   - dim_patient (Питомцы: ID питомца, кличка, вид, порода)
 --   - dim_doctor (Врачи: ID врача, ФИО, специализация)
 --   - dim_service (Услуги и товары: ID услуги, название, категория, цена)
 --   - dim_date (Календарное измерение: ID даты, день, месяц, год)
 -- Шаг 4: Таблица фактов (Fact table)
---   - fact_visits (Факты визитов и продаж: visit_id, client_id, patient_id, doctor_id, service_id, date_id, quantity, total_amount)
+--   - fact_visits (Факты визитов: visit_id, client_id, patient_id, doctor_id, service_id, date_id, quantity, total_amount)
 -- Шаг 5: Физическая модель (Схема «Звезда»)
 -- Таблица измерений: Клиенты
 CREATE TABLE dim_client (
