@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc838ac3-d40e-4ffc-80df-12bd3ffcf677" name="Changes" comment="Добавлено задание 6: калькулятор" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/../../inno-de-lab-aug-2026_-liana-_-kundas-" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lkundas&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lkundas/inno-de-lab-aug-2026_-liana-_-kundas-.git&quot;,
+    &quot;accountId&quot;: &quot;60d5087c-a393-425f-bf0d-6e5d0445c9d0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3HSwn0pIZLDZ4atAWjctQESxMRl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.lesson_7_task1.executor": "Run",
+    "Python.lesson_7_task2.executor": "Run",
+    "Python.lesson_7_task3.executor": "Run",
+    "Python.lesson_7_task4.executor": "Run",
+    "Python.lesson_7_task5.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "lesson__7__final",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5781019d23a5-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28539.58" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc838ac3-d40e-4ffc-80df-12bd3ffcf677" name="Changes" comment="" />
+      <created>1785874943711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785874943711</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1787489380147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787489380147</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавлено задание 2: площадь прямоугольника">
+      <option name="closed" value="true" />
+      <created>1787491425351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787491425351</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавлено задание 3: конвертер температур">
+      <option name="closed" value="true" />
+      <created>1787492590473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787492590473</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавлено задание 4: проверка числа на чётность">
+      <option name="closed" value="true" />
+      <created>1787493221567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1787493221567</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавлено задание 5: игра угадай число">
+      <option name="closed" value="true" />
+      <created>1787494274788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787494274788</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлено задание 6: калькулятор">
+      <option name="closed" value="true" />
+      <created>1787494521095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1787494521095</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавлено задание 6: калькулятор">
+      <option name="closed" value="true" />
+      <created>1787498936750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1787498936750</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавлено задание 6: калькулятор">
+      <option name="closed" value="true" />
+      <created>1787500141836</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1787500141836</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Добавлено задание 2: площадь прямоугольника" />
+    <MESSAGE value="Добавлено задание 3: конвертер температур" />
+    <MESSAGE value="Добавлено задание 4: проверка числа на чётность" />
+    <MESSAGE value="Добавлено задание 5: игра угадай число" />
+    <MESSAGE value="Добавлено задание 6: калькулятор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено задание 6: калькулятор" />
+  </component>
+</project>
