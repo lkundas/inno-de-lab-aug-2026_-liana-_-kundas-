@@ -17,5 +17,7 @@ city = parts[2].upper()
 status = parts[3].lower()
 
 # Шаг 7: Объединяем обработанные элементы в одну строку с разделителем " | " и выводим
-result = f"Нормализованная запись: {user_id} | {name} | {city} | {status}"
+
+result = ' | '.join([user_id, name, city, status])
+# прошлая запись result = f"Нормализованная запись: {user_id} | {name} | {city} | {status}"
 print(result)
