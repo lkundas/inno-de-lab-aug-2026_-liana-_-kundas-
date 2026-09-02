@@ -11,9 +11,18 @@ DEFAULT_RETURN_INDEX_BASE = 10.0
 # Задание 3. Обработка ошибок (try-except-finally)
 # ==========================================
 def calculate_overdue_fine(movie_title: str, days_overdue: Any, fine_rate:float) -> tuple[float, float] | None:
-    """
-    Считаем штраф за просрочку и индекс возврата.
-    Тут защищаемся от кривых данных с помощью try-except.
+   """Считаем штраф за просрочку и индекс возврата.
+    Тут защищаемся от кривых данных с помощью try-except, 
+    обрабатывая ошибки TypeError, ValueError и ZeroDivisionError.
+
+    Args:
+        movie_title (str): Название фильма.
+        days_overdue (Any): Количество дней просрочки (может быть в неверном формате).
+        fine_rate (float): Ставка штрафа за день просрочки.
+
+    Returns:
+        tuple[float, float] | None: Кортеж из итогового штрафа и индекса возврата, 
+        либо None, если произошла ошибка.
     """
     try:
         # Пробуем перевести дни в число с плавающей точкой
