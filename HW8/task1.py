@@ -15,6 +15,14 @@ def calculate_rental_batch(quantity: int, rental_rate: float, discount: float = 
     """
     Считаю общую сумму заказа с учетом скидки и смотрю,
     превышает ли она наш лимит (MAX_RENTAL_BATCH_LIMIT).
+
+    Args:
+        quantity (int): Количество единиц товара в заказе.
+        rental_rate (float): Ставка аренды за единицу.
+        discount (float): Размер скидки (по умолчанию 0.0).
+
+    Returns:
+        tuple[float, bool]: Итоговая сумма заказа и признак превышения лимита.
     """
     # Считаем сумму и сразу округляем до 2 знаков после запятой
     final_sum = round(quantity * rental_rate * (1.0 - discount), 2)
