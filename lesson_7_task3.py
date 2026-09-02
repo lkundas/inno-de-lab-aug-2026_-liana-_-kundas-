@@ -10,7 +10,7 @@ db_config = {
 # 1. Извлечь значения host и port из вложенного словаря connection.
 connection_dict = db_config.get("connection", {})
 host_val = connection_dict.get("host", "localhost")
-port_val = connection_dict.get("port", "localhost")
+port_val = connection_dict.get("port", 5432)
 
 # 2. Безопасно проверить наличие ключа ssl_settings.
 # Если этот ключ или вложенный в него параметр ssl_mode отсутствуют, переменная должна принять дефолтное значение verify-full.
