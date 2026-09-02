@@ -15,9 +15,14 @@ DEFAULT_RETURN_INDEX_BASE = 10.0
 # Задание 2. Декораторы и Lambda
 # ==========================================
 def performance_logger(func: Callable[..., Any]) -> Callable[..., Any]:
-    """
-    Декоратор: замеряет, сколько секунд выполнялась функция,
+    """Декоратор: замеряет, сколько секунд выполнялась функция,
     и выводит имя функции в консоль.
+
+    Args:
+        func (Callable[..., Any]): Функция, которую необходимо обернуть и замерить.
+
+    Returns:
+        Callable[..., Any]: Обернутая функция (wrapper), выполняющая замеры времени.
     """
 
     def wrapper(*args: Any, **kwargs: Any) -> Any:
@@ -37,8 +42,13 @@ def performance_logger(func: Callable[..., Any]) -> Callable[..., Any]:
 
 @performance_logger
 def get_sorted_report(genre_sales: list[dict[str, str | float]]) -> list[dict[str, str | float]]:
-    """
-    Сортируем список жанров по выручке (total_sales) от большего к меньшему.
+    """Сортируем список жанров по выручке (total_sales) от большего к меньшему.
+
+    Args:
+        genre_sales (list[dict[str, str | float]]): Список словарей с данными о продажах жанров.
+
+    Returns:
+        list[dict[str, str | float]]: Новый отсортированный по убыванию выручки список жанров.
     """
     # Использую sorted с лямбдой, чтобы вытащить значение выручки из словаря
     return sorted(genre_sales, key=lambda item: item["total_sales"], reverse=True)
