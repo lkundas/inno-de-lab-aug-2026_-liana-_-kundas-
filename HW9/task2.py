@@ -1,25 +1,6 @@
 from typing import List
-
-
-# Базовый класс учащегося (из предыдущей части урока)
-class Trainee:
-    def __init__(self, name: str, surname: str, score: int = 0, passing_grade: int = 10):
-        self.name: str = name
-        self.surname: str = surname
-        self.score: int = score
-        self.passing_grade: int = passing_grade
-
-    def visit_lecture(self) -> None:
-        """Имитирует посещение лекции, увеличивая баллы на 1."""
-        self.score += 1
-
-    def do_homework(self) -> None:
-        """Выполнение обычной домашней работы (+1 балл)."""
-        self.score += 1
-
-    def is_passing(self) -> bool:
-        """Проверяет, проходит ли студент курс по порогу баллов."""
-        return self.score >= self.passing_grade
+# Импортруем готовый класс Trainee из первого задания
+from task1 important Trainee
 
 
 # 1. Класс HardworkingTrainee (наследник Trainee)
