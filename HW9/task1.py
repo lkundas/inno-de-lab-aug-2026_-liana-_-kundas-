@@ -17,7 +17,7 @@ class Trainee:
     def score(self, value: int) -> None:
         """Сеттер для валидации и изменения значения баллов."""
         # Проверяем, что входящее значение является целым числом (интом)
-        if not isinstance(value, int):
+        if type(value) is not int:
             raise ValueError(f"Expected value of type int, got {type(value)}")
         # Баллы не могут быть отрицательными
         if value < 0:
